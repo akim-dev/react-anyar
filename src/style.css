@@ -1,0 +1,125 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px 15px;
+}
+
+body {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e6e1;
+  display: flex;
+}
+nav-item {
+  position: relative;
+}
+.nav-link {
+  display: block;
+  padding: 10px 15px;
+  margin: 0;
+  color: #314e52;
+  text-decoration: none;
+}
+
+.nav-link:after {
+  content: '';
+  display: none;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  background-color: #11698e;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: #11698e;
+}
+.nav-link.active:after,
+.nav-link:hover:after {
+  display: block;
+} */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: inter, sans-serif;
+  height: 100vh;
+  background-color: #282d35;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  padding: 30px 25px;
+  height: 90px;
+}
+
+/* tanpa class di cssnya */
+/* nav > h3,
+nav > h4 {
+  margin: 0;
+}
+
+nav > h3 {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav > h4 {
+  color: white;
+  font-weight: 700;
+} */
+/* akhir dari tanpa class di css */
+
+.nav--logo {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+.nav--title {
+  color: white;
+  font-weight: 700;
+}
+
+main {
+  margin: 57px 27px;
+  color: white;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05rem;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  /* font-style: normal;
+  font-weight: normal;
+  font-size: 16px; */
+  line-height: 19px;
+  padding-block: 10px;
+}
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
